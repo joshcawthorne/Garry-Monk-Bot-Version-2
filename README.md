@@ -17,3 +17,9 @@ Most of the bot is vanilla Javascript, though I'm using Node.js and Heroku to po
 - Tweets based on a win, draw or loss. (In Progress)
 - Tweets based on training.
 - Tweets based on new signings, or other developments within Monk's career.
+
+# Can I play with it?
+
+Sure! To view the tweet's it generates, visit https://twitter.com/garrymonkbot. (Please note, version 2 is not live on Twitter yet!)
+
+Alternatively, visit the emulator at https://joshcawthorne.github.io/Garry-Monk-Bot-Version-2/ to generate your own tweets.
