@@ -1,6 +1,6 @@
 # Garry Monk Bot - Version 2.0
 
-Welcome to the repo for Garry Monk's Twitter partner, @garrymonkbot. The twitter has been created as a joke, and is not in affiliation with Garry Monk, nor Middlesbrough Football Club. 
+Welcome to the repo for Garry Monk's Twitter partner, @garrymonkbot. The bot, and accompanying twitter account, have been created as a joke, and are not affiliated with Garry Monk, nor Middlesbrough Football Club. 
 
 The code in the repo was created by Josh Cawthorne, as a fun side-project. 
 
