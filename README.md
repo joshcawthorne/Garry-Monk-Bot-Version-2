@@ -23,3 +23,7 @@ Most of the bot is vanilla Javascript, though I'm using Node.js and Heroku to po
 Sure! To view the tweet's it generates, visit https://twitter.com/garrymonkbot. (Please note, version 2 is not live on Twitter yet!)
 
 Alternatively, visit the emulator at https://joshcawthorne.github.io/Garry-Monk-Bot-Version-2/ to generate your own tweets.
+
+# Are you THE Garry Monk?
+
+If so, please don't sue me, it's only a joke. Also, look into getting yourself a new Social Media manager. I'm available for hire. I could even code you a sick bot to do it for you.
