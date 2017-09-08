@@ -4,7 +4,7 @@ Welcome to the repo for Garry Monk's Twitter partner, @garrymonkbot. The bot, an
 
 # Why Version 2?
 
-In relation with the development of monkorbot.com, I discovered that the code powering Version 1, was good enough to pass on Twitter as 'a funny bot', but wasn't yet good enough to make the game of choosing between the real Garry Monk's tweets, and those of the bots a challenge. Therefore, I set-out to re-work the bot from the ground up. One function of version 2's bot is already longer and more complex than the entireity of Version 1.
+In relation with the development of monkorbot.com, I discovered that the code powering Version 1, was good enough to pass on Twitter as 'a funny bot', but wasn't yet good enough to make the game of choosing between the real Garry Monk's tweets, and those of the bots, a challenge. Therefore, I set-out to re-work the bot from the ground up. One function of version 2's bot is already longer and more complex than the entireity of Version 1.
 
 An example of the power of Version 2 when compared to Version 1:
 
@@ -28,7 +28,7 @@ Most of the bot is vanilla Javascript, though I'm using Node.js and Heroku to po
 
 # Can I play with it?
 
-Sure! To view the tweet's it generates, visit https://twitter.com/garrymonkbot. (Please note, version 2 is not live on Twitter yet!)
+Sure! To view the tweets it generates, visit https://twitter.com/garrymonkbot. (Please note, version 2 is not live on Twitter yet!)
 
 Alternatively, visit the emulator at https://joshcawthorne.github.io/Garry-Monk-Bot-Version-2/ to generate your own tweets.
 
