@@ -9,6 +9,7 @@ var finalTeamFullName = "";
 var teamNickname = "";
 var teamNicknameAvailable = false;
 var multipleTeamNicknameAvailable = false;
+var nicknameInappropriate = false;
 
 var teams = ["Aston Villa", "Villa", 
 "Barnsley", 
@@ -123,7 +124,10 @@ function teamSelection() {
         finalTeamTwitter = teamTwitters[1];
         finalTeamStadium = stadiums[1];
         finalLocation = locations[1];
-        finalTeamFullName = "Barnsley";
+        finalTeamFullName = "Barnsley FC";
+        teamNickname = "Barnsley";
+        teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[3] || chosenTeam == teams[4]){
         //Birmingham City
         finalTeamTwitter = teamTwitters[2];
@@ -132,6 +136,7 @@ function teamSelection() {
         finalTeamFullName = "Birmingham City";
         teamNickname = "Birmingham";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[5] || chosenTeam == teams[6]){
         //Bolton Wanders
         finalTeamTwitter = teamTwitters[3];
@@ -140,12 +145,16 @@ function teamSelection() {
         finalTeamFullName = "Bolton Wanderers";
         teamNickname = "Bolton";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[7]){
         //Brentford
         finalTeamTwitter = teamTwitters[4];
         finalTeamStadium = stadiums[4];
         finalLocation = locations[4];
-        finalTeamFullName = "Brentford";
+        finalTeamFullName = "Brentford FC";
+        teamNicknameAvailable = true;
+        teamNickname = "Brentford"
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[8] || chosenTeam == [9]) {
         //Bristol City
         finalTeamTwitter = teamTwitters[5];
@@ -154,6 +163,7 @@ function teamSelection() {
         finalTeamFullName = "Bristol City";
         teamNickname = "Bristol";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[10] || chosenTeam == teams[11]){
         //Burton
         finalTeamTwitter = teamTwitters[6];
@@ -162,6 +172,7 @@ function teamSelection() {
         finalTeamFullName = "Burton Albion";
         teamNickname = "Burton";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[12] || chosenTeam == teams[13]){
         //Cardiff
         finalTeamTwitter = teamTwitters[7];
@@ -170,6 +181,7 @@ function teamSelection() {
         finalTeamFullName = "Cardiff City";
         teamNickname = "Cardiff";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[14] || chosenTeam == teams[15]) {
         //Derby
         finalTeamTwitter = teamTwitters[8];
@@ -178,6 +190,7 @@ function teamSelection() {
         finalTeamFullName = "Derby County";
         teamNickname = "Derby";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[16]) {
         //Fulham
         finalTeamTwitter = teamTwitters[9];
@@ -186,6 +199,7 @@ function teamSelection() {
         finalTeamFullName = "Fulham FC";
         teamNickname = "Fulham";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[17] || chosenTeam == teams[18]){
         //Hull City
         finalTeamTwitter = teamTwitters[10];
@@ -194,6 +208,7 @@ function teamSelection() {
         finalTeamFullName = "Hull City";
         teamNickname = "Hull";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[19] || chosenTeam == teams[20]) {
         //Ipswich Town
         finalTeamTwitter = teamTwitters[11];
@@ -202,6 +217,7 @@ function teamSelection() {
         finalTeamFullName = "Ipswich Town";
         teamNickname = "Ipswich";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[21] || chosenTeam == teams[22]){
         //Leeds United
         finalTeamTwitter = teamTwitters[12];
@@ -210,6 +226,7 @@ function teamSelection() {
         finalTeamFullName = "Leeds United";
         teamNickname = "Leeds";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[23]){
         //Millwall
         finalTeamTwitter = teamTwitters[13];
@@ -218,6 +235,7 @@ function teamSelection() {
         finalTeamFullName = "Millwall FC";
         teamNickname = "Millwall";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[24] || chosenTeam == teams[25]) {
         //Norwich
         finalTeamTwitter = teamTwitters[14];
@@ -226,6 +244,7 @@ function teamSelection() {
         finalTeamFullName = "Norwich City";
         teamNickname = "Norwich";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[26] || chosenTeam == teams[27]) {
         //Nottingham
         finalTeamTwitter = teamTwitters[15];
@@ -235,12 +254,16 @@ function teamSelection() {
         teamNicknames = ["Nottingham", "Forest"];
         teamNicknameAvailable = true;
         multipleTeamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[28]) {
         //Preston
         finalTeamTwitter = teamTwitters[16];
         finalTeamStadium = stadiums[16];
         finalLocation = locations[16];
         finalTeamFullName = "Preston North End";
+        teamNickname = "Preston"
+        teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[29] || chosenTeam == teams[30]) {
         //QPR
         finalTeamTwitter = teamTwitters[17];
@@ -257,6 +280,7 @@ function teamSelection() {
         finalTeamFullName = "Reading FC";
         teamNickname = "Reading";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;        
     } else if(chosenTeam == teams[32]) {
         //Sheffield United
         finalTeamTwitter = teamTwitters[19];
@@ -277,6 +301,7 @@ function teamSelection() {
         finalTeamFullName = "Sunderland FC";
         teamNickname = "Sunderland";
         teamNicknameAvailable = true;
+        nicknameInappropriate = true;
     } else if(chosenTeam == teams[35] || chosenTeam == teams[36]){
         //Wolves
         finalTeamTwitter = teamTwitters[22];
@@ -347,8 +372,10 @@ function upcomingGame() {
     var interlinkedBLocation = ["is a tough place to visit. ", "will be a tough place to visit. ", "is a hard place to visit. "]
     
     var nickname = "";
+    var teamName = "";
 
     console.log("Tweet type: " + choice);
+    console.log(nicknameInappropriate);
 
     if(multipleTeamNicknameAvailable == true) {
         nickname = teamNickname[Math.floor(Math.random() * teamNickname.length)];        
@@ -362,10 +389,24 @@ function upcomingGame() {
 
     if(finalLocation == "London"){
         teamName = teamNickname
-    } else {
-        teamName = finalTeamFullName;
+    } else{
+        if(nicknameInappropriate = true){
+            console.log("Registered");
+            var numb = Math.floor(Math.random() * 2) + 1;
+            console.log(numb)
+            if(numb == 1){
+                console.log("Registered 1");                
+                teamName = finalTeamFullName;
+            } else {
+                console.log("Registered 2");                
+                teamName = finalTeamFullName
+            }
+        } else {
+            teamName = teamNickname;
+        }
     }
     
+    console.log(teamName);
 
     if(choice == 1){
         tweet = introSections[Math.floor(Math.random() * introSections.length)] + finalTeamTwitter +". "+ fillerSection[Math.floor(Math.random() * fillerSection.length)] + endingSection[Math.floor(Math.random() * endingSection.length)];
