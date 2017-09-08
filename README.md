@@ -8,6 +8,16 @@ The code in the repo was created by Josh Cawthorne, as a fun side-project.
 
 In relation with the development of monkorbot.com, I discovered that the code powering Version 1, was good enough to pass on Twitter as 'a funny bot', but wasn't yet good enough to make the game of choosing between the real Garry Monk's tweets, and those of the bots a challenge. Therefore, I set-out to re-work the bot from the ground up. One function of version 2's bot is already longer and more complex than the entireity of Version 1.
 
+An example of the power of Version 2 when compared to Version 1:
+
+A typical Version 1 Tweet:
+
+  *"I don't feel that we deserved to lose today. On to the next game. #UTB"*
+  
+A typical version 2 Tweet:
+
+  *"We're travelling to Birmingham, for our game against Villa. Every game in this league is ultra competitive, and as ever, our great support will be key. #UTB"*
+
 # What are you using to build it?
 
 Most of the bot is vanilla Javascript, though I'm using Node.js and Heroku to power the bot's ability to Tweet randomly, with no prior interaction from a user. This code is currently not available on the repo.
