@@ -22,8 +22,7 @@ Most of the bot is vanilla Javascript, though I'm using Node.js and Heroku to po
 
 # What's the latest thing you've added?
 
-- 28/09/17 - Add API to impliment live scores, team form and upcoming game. 
-           - This update is yet to be merged with TweetEngine 2.0.
+- 28/09/17 - Add API to impliment live scores, team form and upcoming games. This update is yet to be merged with TweetEngine 2.0.
 - 08/09/17 - Begin work on TweetEngine 2.0, for more realistic and detailed Tweets.
 
 # What functionality is missing?
