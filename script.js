@@ -13,7 +13,7 @@ function boot() {
     }
 
     console.log("Garry Monk Bot Version 2.1.4");
-    console.log("Last Major Bot Revision: 28.09/17");
+    console.log("Last Major Bot Revision: 28.09.17");
     console.log("Booting...");
     console.log("   Gathering required files");
     console.log("   Requesting connection to Twitter API");
