@@ -2,8 +2,6 @@ var homeTeam, awayTeam, gameWeek, gameDate, goalsHomeTeam, goalsAwayTeam, goalsH
 
 function boot() {
 
-    alert('Performing attempt');
-
     //Get Data
     var getJSON = function(url, callback) {
         var xhr = new XMLHttpRequest();
