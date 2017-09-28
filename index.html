@@ -2,41 +2,20 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Monkbot Emulator</title>
+    <title>GMBot: LIVE IN CONCERT!</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
 
-    <center>
-
-    <h1>Monk Bot Emulator</h1>
-    <i><p>Emulating Garry Monk since 1976*</p></i>
-
-    <button onclick="teamSelection();">New Team</button>
-    </br></br>
-    <button onclick="randomTweet();">Random Tweet</button>
-    <button onclick="tweetType1();">Tweet Type 1</button>
-    <button onclick="tweetType2();">Tweet Type 2</button>
-    <button onclick="tweetType3();">Tweet Type 3</button>
-    <button onclick="tweetType4();">Tweet Type 4</button>
-    <button onclick="tweetType5();">Tweet Type 5</button>
-    <button onclick="tweetType6();">Tweet Type 6</button>
-
-    <h3 id="simulationDetails">
-    <h2 id="pregame"></h2>
-    
-    <p>This UI Isn't ugly.</p>
-    <i><h6>You're ugly.</h6></i>
-    <i><p>*This time-scale may not be entirely accurate.</p></i>
-
-    </center>  
-
-  <script src="monkBot2.js" type="text/javascript"></script>
+    <h1>Garry Monk Bot; Live in concert!</h1>
+    <p>If I weren't a lazy coder, something would be here to fill the space. But it's not, so this title will have to do.</p>
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script src="script.js"></script> 
   <script type="text/javascript">
    function autorun()
    {
-    teamSelection();
+        boot();
    }
    if (window.addEventListener) window.addEventListener("load", autorun, false);
    else if (window.attachEvent) window.attachEvent("onload", autorun);

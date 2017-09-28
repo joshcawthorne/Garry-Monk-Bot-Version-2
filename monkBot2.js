@@ -509,7 +509,7 @@ function win() {
     var introSectionsGeneric = ["A great performance against a strong team today.","A brilliant performance against a good team today.","A superb showing against tough opposition",
     "Very good performance against a tough side today.","A brilliant performance against a good team tonight.","Very good performance against a tough side tonight."];
     var introSectionSpecific = ["An amazing perfomance today, to beat ", "A brilliant performance this evening to beat"]
-    var interlinkedSpecificA = ["Absolutely delighted to be coming away from ", "Leaving ", "Very happy to play someone like "];
+    var interlinkedSpecificA = ["Absolutely delighted to be coming away from ", "Leaving "];
     var interlinkedSpecificB = [" today with 3 points.", " with another 3 points on the board. A brilliant performance.", " and still be able to get all three available points."]
     var fillerSection = [];
     var endingSection = ["Credit to the fans.", "Fans brilliant as always.", "Thanks to the brilliant away fans."];
