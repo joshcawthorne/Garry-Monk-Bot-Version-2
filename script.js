@@ -2,7 +2,6 @@ var homeTeam, awayTeam, gameWeek, gameDate, goalsHomeTeam, goalsAwayTeam, goalsH
 
 function boot() {
 
-<<<<<<< HEAD
     var old = console.log;
     var logger = document.getElementById('log');
     console.log = function (message) {
@@ -67,8 +66,6 @@ function boot() {
     console.log("   Successfully applied Twitter Account credentials");
     console.log("   Gathering latest game data...");
     
-=======
->>>>>>> 49508eec91700404c250e660b79f4f72d5dc2b5e
     //Get Data
     var getJSON = function(url, callback) {
         var xhr = new XMLHttpRequest();
@@ -216,10 +213,6 @@ function boot() {
         console.log("Completed all remaining tasks.");
         }
     });
-<<<<<<< HEAD
     
     
 }
-=======
-}
->>>>>>> 49508eec91700404c250e660b79f4f72d5dc2b5e
