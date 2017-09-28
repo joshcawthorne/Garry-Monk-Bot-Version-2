@@ -200,7 +200,7 @@ function boot() {
             tweet = startChoice + endChoice + " #UTB"        
         }
         console.log(" ");
-        console.log("***NOTE: Tweet Engine is still that of V1.0 yet. Engine 2.0 is yet to be merged.***");
+        console.log("***NOTE: Tweet Engine is still V1.0 for the moment. Engine 2.0 is yet to be merged.***");
         console.log(" ");
         console.log('"' + tweet + '"');
         console.log(" ");
