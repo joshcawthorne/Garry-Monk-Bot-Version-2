@@ -20,6 +20,12 @@ A typical version 2 Tweet:
 
 Most of the bot is vanilla Javascript, though I'm using Node.js and Heroku to power the bot's ability to Tweet randomly, with no prior interaction from a user. This code is currently not available on the repo.
 
+# What's the latest thing you've added?
+
+- 28/09/17 - Add API to impliment live scores, team form and upcoming game. 
+           - This update is yet to be merged with TweetEngine 2.0.
+- 08/09/17 - Begin work on TweetEngine 2.0, for more realistic and detailed Tweets.
+
 # What functionality is missing?
 
 - Tweets based on a win, draw or loss. (In Progress)
