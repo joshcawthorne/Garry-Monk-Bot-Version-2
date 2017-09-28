@@ -21,7 +21,7 @@ function boot() {
     };
 
     //Use Data
-    getJSON('http://api.football-data.org/v1/teams/343/fixtures',
+    getJSON('https://api.football-data.org/v1/teams/343/fixtures',
     function(err, data) {
       if (err !== null) {
         alert('Error: ' + err);
