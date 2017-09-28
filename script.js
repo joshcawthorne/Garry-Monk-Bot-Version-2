@@ -19,7 +19,7 @@ function boot() {
     console.log("   Requesting connection to Twitter API");
     console.log("   Confirming API credentials and performing handshake...");
 
-    //The following code is for the Server verification, and shouldn't be run on the local demo edition.
+    //The following code is for the Server verification, and shouldn't be run on the local demo edition
     
     /*
     var Twit = require('twit')
