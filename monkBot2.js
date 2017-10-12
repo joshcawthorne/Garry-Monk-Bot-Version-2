@@ -511,7 +511,7 @@ function win() {
     var introSectionSpecific = ["An amazing perfomance today, to beat ", "A brilliant performance this evening to beat"]
     var interlinkedSpecificA = ["Absolutely delighted to be coming away from ", "Leaving "];
     var interlinkedSpecificB = [" today with 3 points.", " with another 3 points on the board. A brilliant performance.", " and still be able to get all three available points."]
-    var fillerSection = [];
+    var fillerSection = ["We're concentrating on the next game now. "];
     var endingSection = ["Credit to the fans.", "Fans brilliant as always.", "Thanks to the brilliant away fans."];
 
     var type = Math.floor(Math.random() * 6) + 0;
